@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(192, 219, 189);
+}
+
+.subscribe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 600px;
+  text-align: center;
+  background: rgb(192, 192, 192);
+  padding: 5px; 
+}
+
+.subscribe label {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 2px;
+  font-weight: 700;
+}
+
+#subscribeButton {
+  padding-top: 3px;
+}
+
+.sent_pageBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 600px;
+  text-align: center;
+  background: rgb(192, 192, 192);
+  padding: 5px; 
+}
